@@ -5,7 +5,7 @@
 		$password = $_POST("password");
 		
 		$statement = mysqli_prepare($con, "SELECT = FROM user WHERE username = ? AND password =?");
-		mysqli_stmt_bind_param($statement,"ss", $name, $age, $username, $password)
+		mysqli_stmt_bind_param($statement,"ss", $name, $age, $username, $password);
 		mysqli_stmt_store_result($statement);
 		
 		
