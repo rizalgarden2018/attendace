@@ -1,5 +1,5 @@
 <?php
-	$con = mysqli_connect("id4111610_android","	id4111610_android","123456","user");
+	$con = mysqli_connect("localhost","id4111610_android","123456","user");
 
 	$name = $_POST["name"];
 	$age = $_POST["age"];
